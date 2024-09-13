@@ -1,21 +1,17 @@
-# Installation der Pod-Abhängigkeiten in einem Swift/Xcode-Projekt
+# Einrichtung des Swift Projekts
 
-Diese Anleitung beschreibt die Schritte, um die Pod-Abhängigkeiten in einem bestehenden Swift/Xcode-Projekt zu installieren, wenn bereits eine `Podfile` vorhanden ist.
+## Systemvoraussetzungen
 
-## Voraussetzungen
-
-1. **CocoaPods**:
+- **CocoaPods**:
    
    Es muss sichergestellt werden, dass CocoaPods auf dem System installiert ist. Falls dies noch nicht geschehen ist, kann CocoaPods mit folgendem Befehl installiert werden:
 
-  ```bash
-  cd prototype
-  ```
-  ```bash
-  sudo gem install cocoapods
-  ```
+   ```bash
+   sudo gem install cocoapods
+   ```
+## Installation der Pod-Abhängigkeiten
 
-2. **Abhängigkeiten installieren**:
+1. **Abhängigkeiten installieren**:
 
    Um die in der Podfile angegebenen Abhängigkeiten zu installieren, wird der folgende Befehl ausgeführt:
 
@@ -23,7 +19,7 @@ Diese Anleitung beschreibt die Schritte, um die Pod-Abhängigkeiten in einem bes
    pod install
    ```
 
-3. **Das Projekt mit der vorhandenen .xcworkspace-Datei öffnen**:
+2. **Das Projekt mit der vorhandenen .xcworkspace-Datei öffnen**:
 
     Da die .xcworkspace-Datei bereits vorhanden ist, sollte das Projekt mit dieser Datei geöffnet werden, um sicherzustellen, dass die Abhängigkeiten korrekt integriert sind:
 
