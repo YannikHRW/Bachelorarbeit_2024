@@ -1,4 +1,19 @@
 # Bachelorarbeit_2024
 
-Die Verzeichnisse müssen von Google Drive bezogen und heruntergeladen werden unter folgendem [Link](https://drive.google.com/drive/folders/1datYVXUdwlbb4LL0PCkf67TQHw-Zrb_q?usp=sharing)
-und in /line_detection/ abgelegt werden damit so in den python Dateien verwendet werden können.
+1. **Repository klonen**:
+
+   Das Repository kann mit folgendem Befehl geklont werden:
+
+   ```bash
+   git clone https://github.com/YannikHRW/Bachelorarbeit_2024.git
+   cd Bachelorarbeit_2024
+   ```
+2. **In das jeweilige Verzeichnis wechseln**:
+
+   ```bash
+   cd line_detection
+   ```
+   oder
+   ```bash
+   cd prototype
+   ```
