@@ -10,6 +10,8 @@ Diese Anleitung beschreibt die Schritte, um die Pod-Abhängigkeiten in einem bes
 
   ```bash
   cd prototype
+  ```
+  ```bash
   sudo gem install cocoapods
   ```
 
