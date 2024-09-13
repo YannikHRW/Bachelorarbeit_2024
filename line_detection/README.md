@@ -20,7 +20,7 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
    cd Bachelorarbeit_2024/line_detection
    ```
 
-2.	**Conda-Umgebung erstellen**:
+2. **Conda-Umgebung erstellen**:
 
    Die Conda-Umgebung wird mit diesem Befehl erstellt:
 
@@ -28,7 +28,7 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
    conda env create -f environment.yml
    ```
 
-3.	**Umgebung aktivieren**:
+3. **Umgebung aktivieren**:
 
    Die Umgebung kann mit folgendem Befehl aktiviert werden:
 
@@ -36,7 +36,7 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
    conda activate myenv
    ```
 
-4.	**Installation überprüfen**:
+4. **Installation überprüfen**:
 
    Um sicherzustellen, dass alle Pakete korrekt installiert sind, kann folgender Befehl ausgeführt werden:
 
