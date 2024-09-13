@@ -5,6 +5,7 @@ Diese Anleitung beschreibt die Schritte, um die Pod-Abhängigkeiten in einem bes
 ## Voraussetzungen
 
 1. **CocoaPods**:
+   
    Es muss sichergestellt werden, dass CocoaPods auf dem System installiert ist. Falls dies noch nicht geschehen ist, kann CocoaPods mit folgendem Befehl installiert werden:
 
   ```bash
