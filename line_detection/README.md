@@ -50,7 +50,11 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
    python3 optimizer.py
    ```
 
+   Nachdem die optimierung durchgeführt wurde, werden am Ende die besten Ergebnisse auf der Konsole ausgegeben. Diese müssen dann manuell in die test.py übernommen werden.
+
 6. **Testdatensatz prüfen**:
+
+   Bei Ausführen der test.py wird dann geprüft, in welchen Test-Bildern Linien mit den eingestellten Parametern erkannt wurden.
 
    ```bash
    python3 test.py
