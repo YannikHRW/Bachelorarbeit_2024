@@ -7,7 +7,7 @@ Dieses Verzeichnis enthält die Python-Umgebung für die Datenverarbeitung.
 - **Conda**: [Miniconda](https://docs.conda.io/en/latest/miniconda.html) oder [Anaconda](https://www.anaconda.com/products/distribution) muss installiert sein.
 - **Python**: Version 3.11 (wird durch Conda bereitgestellt).
 - **Bilddateien**: Die Verzeichnisse müssen von Google Drive bezogen und heruntergeladen werden unter folgendem [Link](https://drive.google.com/drive/folders/1datYVXUdwlbb4LL0PCkf67TQHw-Zrb_q?usp=sharing)
-und in /line_detection/ abgelegt werden damit so in den python Dateien verwendet werden können.
+und in /line_detection abgelegt werden damit sie in den python Dateien verwendet werden können.
 
 ## Einrichtung der Python-Umgebung
 
