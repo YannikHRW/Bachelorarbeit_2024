@@ -22,18 +22,21 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
 2.	**Conda-Umgebung erstellen**:
 
    Die Conda-Umgebung wird mit diesem Befehl erstellt:
+
    ```bash
    conda env create -f environment.yml
 
 3.	**Umgebung aktivieren**:
 
    Die Umgebung kann mit folgendem Befehl aktiviert werden:
+
    ```bash
    conda activate myenv
 
 4.	**Installation überprüfen**:
 
    Um sicherzustellen, dass alle Pakete korrekt installiert sind, kann folgender Befehl ausgeführt werden:
+
    ```bash
    python -c "import numpy; import cv2; import skopt; print('All packages are working!')"
 
