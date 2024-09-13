@@ -18,6 +18,7 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
    ```bash
    git clone https://github.com/YannikHRW/Bachelorarbeit_2024.git
    cd Bachelorarbeit_2024/line_detection
+   ```
 
 2.	**Conda-Umgebung erstellen**:
 
@@ -25,6 +26,7 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
 
    ```bash
    conda env create -f environment.yml
+   ```
 
 3.	**Umgebung aktivieren**:
 
@@ -32,6 +34,7 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
 
    ```bash
    conda activate myenv
+   ```
 
 4.	**Installation überprüfen**:
 
@@ -39,13 +42,16 @@ Um die Python-Umgebung einzurichten, sind folgende Schritte erforderlich:
 
    ```bash
    python -c "import numpy; import cv2; import skopt; print('All packages are working!')"
+   ```
 
 5. **Optimierung starten**:
 
    ```bash
    python3 optimizer.py
+   ```
 
 6. **Testdatensatz prüfen**:
 
    ```bash
    python3 test.py
+   ```
