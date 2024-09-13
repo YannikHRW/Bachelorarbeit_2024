@@ -16,7 +16,7 @@
    Um die in der Podfile angegebenen Abhängigkeiten zu installieren, wird der folgende Befehl ausgeführt:
 
    ```bash
-   pod install
+   pod install --repo-update
    ```
 
 2. **Das Projekt mit der vorhandenen .xcworkspace-Datei öffnen**:
