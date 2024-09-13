@@ -1,0 +1,9 @@
+name: myenv  # Name der Umgebung
+channels:
+  - conda-forge  # Verwendeter Kanal zum Installieren der Pakete
+dependencies:
+  - python=3.11  # Python-Version
+  - numpy=1.26.4
+  - opencv=4.8  # OpenCV für Python
+  - scikit-optimize=0.10.2
+  - pip  # Damit pip-Pakete installiert werden können

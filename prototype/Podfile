@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'TestApp3' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'OpenCV', '~> 4.0'
+  # Pods for TestApp3
+
+  target 'TestApp3Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestApp3UITests' do
+    # Pods for testing
+  end
+
+end

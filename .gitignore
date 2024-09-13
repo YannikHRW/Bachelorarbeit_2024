@@ -1,0 +1,84 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+env/
+venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Conda environment files
+*.conda
+*.log
+*.bak
+*.swp
+*.env
+.DS_Store
+
+# Xcode-related files
+# User-specific files
+*.xcuserstate
+*.xcuserdatad/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Build files
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon must end with two \r
+Icon
+
+# Trashes
+.Trashes
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# optimizer file
+optimizer.pkl
+line_detection/optimizer.pkl
+
+#Pods
+prototype/Pods/
+Pods/
+
+#pics
+line_detection/nature
+line_detection/nature_gaus_filter
+line_detection/recapture
+line_detection/recapture_gaus_filter
+line_detection/test_nature
+line_detection/test_recapture
